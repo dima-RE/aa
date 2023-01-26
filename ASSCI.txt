@@ -1,0 +1,31 @@
+007 = •
+008 = ◘
+009 = ○
+010 = ◙
+185 = ╣
+186 = ║
+187 = ╗
+188 = ╝
+200 = ╚
+201 = ╔
+202 = ╩
+203 = ╦
+204 = ╠
+205 = ═
+206 = ╬
+219 = █
+220 = ▄
+223 = ▀
+
+╔═╦═╗
+║ ║ ║
+╠═╬═╣
+║ ║ ║
+╚═╩═╝
+
+
+To avoid the 0 (system's return value) being shown, use absolutely_unused_variable = os.system("cls") or absolutely_unused_variable = os.system("clear") – Shiva Jul 4 '15 at 8:01
+28
+_=os.system("cls") or _=os.system("clear") seems much better – kien_coi_1997 Jan 8 '16 at 11:09
+20
+This answer is as close as the absolute way of not doing it as one can get. You don't need to run an entire outside process just to clear the screen - just print a number of newlines higher than the screen height: print ("\n" * 100) – jsbueno Jun 2 '16 at 5:21
